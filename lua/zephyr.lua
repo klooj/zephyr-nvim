@@ -36,9 +36,10 @@ local zephyr = {
   grey = '#928374';
   brown = '#fab795';
   black = '#000000';
+  indigo = '#4b0082';
 
   bracket = '#80A0C2';
-  currsor_bg = '#4f5b66';
+  cursor_bg = '#4f5b66';
   none = 'NONE';
 }
 
@@ -151,7 +152,7 @@ function zephyr.load_syntax()
     SpecialChar = {fg=zephyr.yellow};
     Type = {fg=zephyr.yellow};
     Function = {fg=zephyr.yellow};
-    String = {fg=zephyr.brown};
+    String = {fg=zephyr.indigo,style='italic};
     Character = {fg=zephyr.green};
     Constant = {fg=zephyr.cyan};
     Macro = {fg=zephyr.cyan};
@@ -250,8 +251,8 @@ function zephyr.load_plugin_syntax()
     LspDiagnosticsUnderlineInformation = {style="undercurl",sp=zephyr.blue};
     LspDiagnosticsUnderlineHint = {style="undercurl",sp=zephyr.cyan};
 
-    CursorWord0 = {bg=zephyr.currsor_bg};
-    CursorWord1 = {bg=zephyr.currsor_bg};
+    CursorWord0 = {bg=zephyr.cursor_bg};
+    CursorWord1 = {bg=zephyr.cursor_bg};
 
     NvimTreeFolderName = {fg=zephyr.dark_blue};
     NvimTreeRootFolder = {fg=zephyr.red};
