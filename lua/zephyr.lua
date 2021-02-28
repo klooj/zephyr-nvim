@@ -36,8 +36,8 @@ local zephyr = {
   grey = '#928374';
   brown = '#fab795';
   black = '#000000';
-  indigo = '#4b0082';
-  brick = '824020';
+  indigo = '#4444cc';
+  brick = '#824020';
 
   bracket = '#80A0C2';
   cursor_bg = '#4f5b66';
