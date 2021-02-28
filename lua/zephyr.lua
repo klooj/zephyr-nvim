@@ -153,7 +153,7 @@ function zephyr.load_syntax()
     SpecialChar = {fg=zephyr.yellow};
     Type = {fg=zephyr.yellow};
     Function = {fg=zephyr.yellow};
-    String = {fg=zephyr.indigo,style='italic};
+    String = {fg=zephyr.indigo,style='italic'};
     Character = {fg=zephyr.green};
     Constant = {fg=zephyr.cyan};
     Macro = {fg=zephyr.cyan};
