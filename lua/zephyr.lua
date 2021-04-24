@@ -43,7 +43,7 @@ local zephyr = {
   bracket = '#80A0C2',
   cursor_bg = '#4f5b66',
   none = 'NONE',
-  tree_bg = '#01152B'
+  tree_bg = '#050120'
 }
 
 function zephyr.terminal_color()
