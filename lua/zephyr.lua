@@ -261,9 +261,10 @@ function zephyr.load_plugin_syntax()
     NvimTreeNormal = {bg = zephyr.tree_bg},
 
     TelescopeBorder = {fg = zephyr.teal},
-    TelescopePromptBorder = {fg = zephyr.blue}
+    TelescopePromptBorder = {fg = zephyr.blue},
 
-    -- WhichKeySeperator = {fg = '#010010'}
+    -- WhichKey = {fg = '#010010'}
+    WhichKeySeperator = {bg = '#010010'}
   }
   return plugin_syntax
 end
