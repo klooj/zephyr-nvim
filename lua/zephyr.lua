@@ -263,7 +263,7 @@ function zephyr.load_plugin_syntax()
     TelescopeBorder = {fg = zephyr.teal},
     TelescopePromptBorder = {fg = zephyr.blue},
 
-    WhichKeyFloat = {fg = '#010010'}
+    WhichKeySeperator = {fg = '#010010'}
   }
   return plugin_syntax
 end
